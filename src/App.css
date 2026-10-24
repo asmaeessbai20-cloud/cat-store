@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 30px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  margin: 0;
+  font-size: 18px;
+}
+
+.links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #555;
+}
+
+.links a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #6c4ab6;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 15px;
+}
+
+.card p {
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.product-page {
+  max-width: 450px;
+}
+
+.product-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.product-page label {
+  display: block;
+  margin-top: 10px;
+}
+
+.product-page input {
+  width: 100%;
+  padding: 6px;
+  margin: 5px 0 10px;
+}
+
+.cart-item {
+  max-width: 350px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.delete {
+  background: red;
+}
+
+.delete:hover {
+  background: darkred;
+}
+
+.cart-total {
+  margin-top: 20px;
+}
+.navbar {
+  justify-content: flex-start;
+}
+
+.cart-icon {
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 20px;
+  color: #222;
+}
+
+.badge {
+  font-size: 13px;
+  background: #6c4ab6;
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 10px;
+}
+.hero {
+  height: calc(100vh - 50px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("/images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
